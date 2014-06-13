@@ -1,0 +1,9 @@
+---
+directory: example
+classes:
+  Mail_Service_Command_Abstract:
+    - Mail_Service_ClassOne
+    - Mail_Service_ClassTwo
+  Mail_Service_Command_Interface:
+    - Mail_Service_ClassThree
+    - Mail_Service_ClassFour
