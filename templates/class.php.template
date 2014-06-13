@@ -1,0 +1,11 @@
+<?php
+
+/**
+ *
+ * @author Héctor Iván Patricio Moreno<hector.patricio@linio.com>
+ *
+ */
+class #className extends #parentClass
+{
+
+}

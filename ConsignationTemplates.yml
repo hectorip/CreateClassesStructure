@@ -1,8 +1,8 @@
 ---
-# directory: '../linio_code/git_code/bob/application/local/modules'
-directory: 'example'
+directory: '../linio_code/git_code/bob/application/local/modules/'
+#directory: 'example'
 classes:
-  Mail_Service_Command_Abstract:
+  Mail_Model_Template_Abstract:
     template: 'templates/class.php.template'
     childClasses:
       - Mail_Model_Template_Various_ManualReturn
