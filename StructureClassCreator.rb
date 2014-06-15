@@ -22,7 +22,7 @@ class StructureClassCreator
 		path = @directory + '/' + path.join('/')
 
 		FileUtils::mkpath path
-		name = path + '/' + filename + '.php'
+		name = path + '/' + filename + @fileExtension
 		classFile = File.open(name, 'a+')
 		
 
@@ -46,6 +46,7 @@ class StructureClassCreator
 
 			templateFile = File.open(parentValues['template'],'rb')
 			@contents =templateFile.read
+			@fileExtension = parentValues['file_extension']
 			
 			puts @parentClass
 

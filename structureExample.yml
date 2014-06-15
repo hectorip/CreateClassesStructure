@@ -4,6 +4,7 @@ directory: 'example'
 classes:
   Mail_Service_Command_Abstract:
     template: 'templates/class.php.template'
+    file_extension: php
     childClasses:
       - Mail_Model_Template_Various_ManualReturn
       - Mail_Model_Template_Sales_ConsignacionPaymentPending
