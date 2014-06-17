@@ -2,15 +2,16 @@ CreateClassesStructure
 ======================
 
 Ruby Script to read a YAML and create File Structure, using templates. The example file is included in the root directory.
-
+<br />
 Use:
- ruby createStructure example.yml
+ <br /> ruby createStructure example.yml
 
 Template variables:
-	- #className
-	- #parentClass 
-
+<ul>
+	<li>- #className 	</li>
+	<li>- #parentClass  </li>
+</ul>
 Require Colorize Gem
-https://rubygems.org/gems/colorize
+<br/ > https://rubygems.org/gems/colorize
 
  -> gem install colorize
